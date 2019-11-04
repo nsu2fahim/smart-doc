@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="570.0" prefWidth="680.0" style="-fx-background-image: url('file:D:/SmartDocJpegs/C.jpg');" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fahim.smartdoc.FXMLController3">
+   <children>
+      <Label layoutX="35.0" layoutY="30.0" text="Please select your symptoms of illness:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="537.0" layoutY="31.0" mnemonicParsing="false" onAction="#handleClearFieldAction" style="-fx-background-color: red;" text="Clear field" textFill="WHITE" />
+      <Button focusTraversable="false" layoutX="230.0" layoutY="506.0" maxHeight="40.0" maxWidth="85.0" minHeight="40.0" minWidth="80.0" mnemonicParsing="false" onAction="#handleSubmitAction" prefHeight="40.0" prefWidth="85.0" style="-fx-background-color: black;" text="Submit" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button focusTraversable="false" layoutX="355.0" layoutY="506.0" maxHeight="40.0" maxWidth="85.0" minHeight="40.0" minWidth="80.0" mnemonicParsing="false" onAction="#handleReturnAction" prefHeight="40.0" prefWidth="85.0" style="-fx-background-color: black;" text="Return" textFill="WHITE">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label fx:id="fieldSymptoms" alignment="TOP_LEFT" layoutX="35.0" layoutY="68.0" prefHeight="273.0" prefWidth="608.0" style="-fx-background-color: violet;" textFill="WHITE" wrapText="true">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="fieldMessage" layoutX="240.0" layoutY="351.0" prefHeight="17.0" prefWidth="230.0" textFill="RED">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+      <HBox fillHeight="false" layoutX="77.0" layoutY="386.0" maxHeight="100.0" maxWidth="608.0" prefHeight="34.0" prefWidth="528.0" spacing="5.0">
+         <children>
+            <Button focusTraversable="false" maxHeight="27.0" maxWidth="127.0" minHeight="27.0" minWidth="127.0" mnemonicParsing="false" onAction="#handleSymptopmsAction" prefHeight="27.0" prefWidth="127.0" text="Cough">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Button>
+            <Button focusTraversable="false" maxHeight="27.0" maxWidth="127.0" minHeight="27.0" minWidth="127.0" mnemonicParsing="false" onAction="#handleSymptopmsAction" prefHeight="27.0" prefWidth="127.0" text="Itching">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Button>
+            <Button focusTraversable="false" maxHeight="27.0" maxWidth="127.0" minHeight="27.0" minWidth="127.0" mnemonicParsing="false" onAction="#handleSymptopmsAction" prefHeight="27.0" prefWidth="127.0" text="Diarrhea">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Button>
+            <Button focusTraversable="false" maxHeight="27.0" maxWidth="127.0" minHeight="27.0" minWidth="127.0" mnemonicParsing="false" onAction="#handleSymptopmsAction" prefHeight="27.0" prefWidth="127.0" text="Nausea">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <HBox layoutX="77.0" layoutY="420.0" prefHeight="27.0" prefWidth="528.0" spacing="5.0">
+         <children>
+            <Button focusTraversable="false" maxHeight="27.0" maxWidth="127.0" minHeight="27.0" minWidth="127.0" mnemonicParsing="false" onAction="#handleSymptopmsAction" prefHeight="27.0" prefWidth="127.0" text="Vomiting">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Button>
+            <Button focusTraversable="false" maxHeight="27.0" maxWidth="127.0" minHeight="27.0" minWidth="127.0" mnemonicParsing="false" onAction="#handleSymptopmsAction" prefHeight="27.0" prefWidth="127.0" text="Fever">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Button>
+            <Button focusTraversable="false" maxHeight="27.0" maxWidth="127.0" minHeight="27.0" minWidth="127.0" mnemonicParsing="false" onAction="#handleSymptopmsAction" prefHeight="27.0" prefWidth="127.0" text="Headache">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Button>
+            <Button focusTraversable="false" maxHeight="27.0" maxWidth="127.0" minHeight="27.0" minWidth="127.0" mnemonicParsing="false" onAction="#handleSymptopmsAction" prefHeight="27.0" prefWidth="127.0" text="Weakness">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <HBox layoutX="272.0" layoutY="457.0" prefHeight="34.0" prefWidth="139.0" spacing="5.0">
+         <children>
+            <Button focusTraversable="false" maxHeight="27.0" maxWidth="127.0" minHeight="27.0" minWidth="127.0" mnemonicParsing="false" onAction="#handleSymptopmsAction" prefHeight="27.0" prefWidth="127.0" text="Dehydration">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

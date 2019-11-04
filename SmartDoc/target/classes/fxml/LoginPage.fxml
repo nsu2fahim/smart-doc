@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="570.0" prefWidth="680.0" style="-fx-background-image: url('file:D:/SmartDocJpegs/C.jpg');" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fahim.smartdoc.FXMLController1">
+   <children>
+      <Label layoutX="149.0" layoutY="137.0" prefHeight="27.0" prefWidth="134.0" text="Enter Username:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="149.0" layoutY="190.0" prefHeight="27.0" prefWidth="134.0" text="Enter Password:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="username" layoutX="297.0" layoutY="138.0" prefHeight="25.0" prefWidth="182.0" promptText="username" />
+      <PasswordField fx:id="password" layoutX="297.0" layoutY="191.0" prefHeight="25.0" prefWidth="182.0" promptText="password" />
+      <Button focusTraversable="false" layoutX="260.0" layoutY="296.0" maxHeight="35.0" maxWidth="125.0" minHeight="35.0" minWidth="125.0" mnemonicParsing="false" onAction="#handleLoginAction" prefHeight="35.0" prefWidth="125.0" text="Login">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button focusTraversable="false" layoutX="260.0" layoutY="359.0" maxHeight="35.0" maxWidth="125.0" minHeight="35.0" minWidth="125.0" mnemonicParsing="false" onAction="#handleReturnAction" prefHeight="35.0" prefWidth="125.0" text="Return">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label fx:id="fieldMessage" alignment="CENTER" layoutX="293.0" layoutY="229.0" prefHeight="20.0" prefWidth="182.0" textFill="RED">
+         <font>
+            <Font size="11.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

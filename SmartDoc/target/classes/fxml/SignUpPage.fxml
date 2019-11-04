@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="570.0" prefWidth="680.0" style="-fx-background-image: url('file:D:/SmartDocJpegs/C.jpg');" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fahim.smartdoc.FXMLController2">
+   <children>
+      <Label layoutX="142.0" layoutY="89.0" prefHeight="27.0" prefWidth="153.0" text="Enter your email:*">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="142.0" layoutY="141.0" prefHeight="27.0" prefWidth="153.0" text="Enter your name:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="142.0" layoutY="196.0" prefHeight="27.0" prefWidth="153.0" text="Enter your age:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="142.0" layoutY="239.0" prefHeight="27.0" prefWidth="153.0" text="Enter your sex:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="149.0" layoutY="285.0" text="Choose username:*">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="149.0" layoutY="320.0" text="Choose password:*">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="fieldEmail" layoutX="340.0" layoutY="90.0" prefHeight="25.0" prefWidth="162.0" promptText="your email here" />
+      <TextField fx:id="fieldName" layoutX="340.0" layoutY="142.0" prefHeight="25.0" prefWidth="162.0" promptText="your name here" />
+      <TextField fx:id="fieldAge" layoutX="336.0" layoutY="197.0" prefHeight="25.0" prefWidth="162.0" promptText="your age here" />
+      <TextField fx:id="fieldSex" layoutX="336.0" layoutY="240.0" prefHeight="25.0" prefWidth="162.0" promptText="your sex here" />
+      <TextField fx:id="fieldUsername" layoutX="336.0" layoutY="286.0" promptText="choose username" />
+      <PasswordField fx:id="fieldPassword" layoutX="336.0" layoutY="321.0" promptText="choose password" />
+      <Button focusTraversable="false" layoutX="246.0" layoutY="386.0" maxHeight="40.0" maxWidth="85.0" minHeight="40.0" minWidth="85.0" mnemonicParsing="false" onAction="#handleSubmitAction" prefHeight="40.0" prefWidth="85.0" text="Submit">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button focusTraversable="false" layoutX="354.0" layoutY="386.0" maxHeight="40.0" maxWidth="85.0" minHeight="40.0" minWidth="85.0" mnemonicParsing="false" onAction="#handleClearAction" prefHeight="40.0" prefWidth="85.0" text="Clear">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button focusTraversable="false" layoutX="255.0" layoutY="450.0" maxHeight="40.0" maxWidth="170.0" minHeight="40.0" minWidth="170.0" mnemonicParsing="false" onAction="#handleReturnAction" prefHeight="40.0" prefWidth="170.0" text="Return">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Label fx:id="fieldMessage" layoutX="317.0" layoutY="353.0" prefHeight="17.0" prefWidth="273.0" textFill="RED">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
